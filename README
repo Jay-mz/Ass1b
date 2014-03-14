@@ -14,7 +14,6 @@ records.h file:- It defines the variables used in the records.cpp class.
 records.cpp file:- It contains definitions of the the StudentRecord class and Database class. It also carries defitions of the core functions to be used
 
 cmdline_parser.cpp:- It enables parsing of commandline arguments from the terminal this is includes filename to be used to save the database.
-			By default the filename is dbfile.txt.
 
 driver.cpp:- This is the main file with the main method. all Method are called inside this file.
 
