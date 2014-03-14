@@ -1,0 +1,29 @@
+Author: James Feli
+Date: 13 March 2014
+
+Name: DataBase 
+
+database assignment
+
+Description:
+The program consists of five files with their as described below
+
+records.h file:- It defines the variables used in the records.cpp class.
+
+
+records.cpp file:- It contains definitions of the the StudentRecord class and Database class. It also carries defitions of the core functions to be used
+
+cmdline_parser.cpp:- It enables parsing of commandline arguments from the terminal this is includes filename to be used to save the database.
+			By default the filename is dbfile.txt.
+
+driver.cpp:- This is the main file with the main method. all Method are called inside this file.
+
+makefile:- has commands to compile the program
+
+Instructions:
+To compile the program, type make in the terminal of a unix os and to run the program type ./myprog
+
+-The interface of the program is self explanatory defining options and way to quit the program. 
+
+
+List of files: records.cpp, driver.cpp, records.h, cmdline_parser.cpp, cmdline_parser.h, makefile, README.txt
